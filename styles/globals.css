@@ -15,8 +15,10 @@ body {
 }
 
 body {
-  background-color: rgba(255, 255, 255, 0.65);
-  color: #181818;
+  background: #36d1dc;
+  background: -webkit-linear-gradient(to right, #36d1dc, #5b86e5);
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  color: rgb(44, 44, 44);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,7 +27,9 @@ body {
   }
 
   body {
-    background-color: #181818;
-    color: rgba(255, 255, 255, 0.65);
+    background: #36d1dc;
+    background: -webkit-linear-gradient(to right, #36d1dc, #5b86e5);
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    color: rgb(44, 44, 44);
   }
 }
