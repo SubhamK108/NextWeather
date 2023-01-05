@@ -20,17 +20,17 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:url" content="https://weather.subhamk.com" />
+        <meta name="twitter:url" content="https://next-weather.subhamk.com" />
         <meta name="twitter:title" content="Weather - Subham Karmakar" />
         <meta name="twitter:description" content="Check weather of your current location." />
-        <meta name="twitter:image" content="https://weather.subhamk.com/android-chrome-192x192.png" />
+        <meta name="twitter:image" content="https://next-weather.subhamk.com/android-chrome-192x192.png" />
         <meta name="twitter:creator" content="@SubhamK108" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Weather - Subham Karmakar" />
         <meta property="og:description" content="Check weather of your current location." />
         <meta property="og:site_name" content="Weather - Subham Karmakar" />
-        <meta property="og:url" content="https://weather.subhamk.com" />
-        <meta property="og:image" content="https://weather.subhamk.com/android-chrome-192x192.png" />
+        <meta property="og:url" content="https://next-weather.subhamk.com" />
+        <meta property="og:image" content="https://next-weather.subhamk.com/android-chrome-192x192.png" />
       </Head>
 
       <Script src="https://maxdow.github.io/skycons/skycons.js" />
