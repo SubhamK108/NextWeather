@@ -12,7 +12,7 @@ interface WeatherCore {
 
 var weatherCoreInitials: WeatherCore = {
   ApiKey: "Cm0P5hbUD5j9rCkzebTYIrSd2kRXxhjd",
-  ErrorText: "Fetching your current location...",
+  ErrorText: "Fetching weather data of your current location...",
   ExitCode: -1,
   HideWeatherDetails: true,
   IsLoading: true

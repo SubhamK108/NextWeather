@@ -36,10 +36,6 @@ async function getCityDetails(props: getCityDetailsProps): Promise<void> {
         Town: jsonCity.EnglishName,
         State: jsonCity.AdministrativeArea.EnglishName
       };
-      props.setWeatherCore((prevState) => ({
-        ...prevState,
-        ErrorText: "Fetching weather data of your current location..."
-      }));
     } else {
       throw new Error();
     }
